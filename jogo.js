@@ -2,7 +2,7 @@ let nick = document.querySelector('#Nick');
 let mensagem = document.querySelector('.texto')
 let resposta = document.querySelector('#numero');
 let resultado = document.querySelector('.resultado');
-let dificuldade = document.querySelector('#intervalo');
+let dificuldade = document.querySelector('#Dificuldade');
 let numero_definido;
 let tentativas = 3;
 let chances = document.querySelector('.tentativas');
