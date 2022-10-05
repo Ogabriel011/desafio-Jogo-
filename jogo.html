@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Adivinhação</title>
+
+    <link rel="stylesheet" href="jogo.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="celular.css">
+</head>
+
+<body>
+
+
+    <main>
+        <header>
+            <div class="titulo1">
+                <h1>O Jogo</h1>
+            </div>
+        </header>
+
+        <section id="parte1">
+            <div class="imagemPerfil">
+                <img src="src/image 1.png" alt="imagem de usuario">
+            </div>
+
+            <div id="inputs">
+
+                <label for="Nick">Nick:</label><br>
+                <input type="text" name="nickcame" id="Nick"><br><br>
+
+                <label for="Dificuldade">Dificuldade:</label><br>
+                <select name="Dificuldade" id="Dificuldade">
+
+                    <option value="opcao1" id="opcao1">Fácil: 1 a 10</option>
+                    <option value="opcao2" id="opcao2">Normal: 1 a 100</option>
+                    <option value="opcao3" id="opcao3">Difícil: 1 a 200</option>
+
+                </select><br><br><br>
+
+                <button onclick="enviar_inputs()" type="submit" id="botao1">Começar</button>
+
+                <br><br>
+            </div>
+        </section>
+
+        <div class="linha">
+
+        </div>
+
+        <section id="parte2">
+            <div class="texto"> </div>
+
+            <br><br>
+
+            <div class="numero">
+                <label for="Numero">Digite um número:</label><br>
+                <input type="number" name="número" id="numero">
+            </div>
+
+            <br><br><br>
+
+            <div class="reiniciar">
+                <button onclick="comparar()" type="submit" id="botao2">Jogar</button>
+            </div>
+
+            <br>
+
+            <div class="resultado"></div>
+
+            <br>
+
+            <div class="tentativas"></div>
+
+            <br>
+
+            <div class="botao3"></div>
+
+
+        </section>
+    </main>
+
+    <script src="jogo.js"></script>
+</body>
+
+</html>

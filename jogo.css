@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&family=Squada+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --laranja: #f2890d;
+    --azul: #1180E6;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--laranja);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header{
+    width: 258px;
+    height: 100px;
+    background: var(--azul);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Squada One' ;
+    font-size: 30px;
+    position: absolute;
+    top: -50px;
+}
+
+main{
+    margin-top: 100px;
+    width: 85%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+#parte1{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Nick, #Dificuldade{
+    width: 200px;
+    height: 25px;
+}
+
+#numero{
+    width: 272px;
+    height: 25px;
+}
+
+label{
+    
+    font-family: 'Press Start 2P';
+}
+
+#botao1{
+    width: 200px;
+    height: 25px;
+    color: white;
+    background-color: var(--azul);
+    border-radius: 10px;
+    font-family: 'Press Start 2P';
+}
+
+#botao2{
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: var(--laranja);
+    border-radius: 10px;
+    font-family: 'Press Start 2P';
+}
+
+.linha{
+    width: 2px;
+    height: 300px;
+    background-color: black;
+}
+
+#parte2{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto, .resultado, .tentativas{
+    text-align: center;
+}
+
+#botao3{
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: var(--laranja);
+    border-radius: 10px;
+    font-family: 'Press Start 2P';
+}
